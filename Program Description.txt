@@ -1,0 +1,23 @@
+* General description:
+	- Attendance Check using face recognization
+	- Add student face and in
+	- Checking students attendance for each lessons
+	- Show information when identified
+	- Warning stranger appearance 
+
+* Class:
+	- Layout section
+	- Information box:
+		+ 
+	- Camera display box:
+		+ 
+	
+
+
+reference: https://face-recognition.readthedocs.io/en/latest/face_recognition.html
+
+https://medium-com.translate.goog/codex/face-recognition-25f7421a2268?_x_tr_sl=auto&_x_tr_tl=vi&_x_tr_hl=vi&_x_tr_pto=wapp
+
+face_recognition.api.face_locations
+face_recognition.api.face_encodings
+face_recognition.api.compare_faces
