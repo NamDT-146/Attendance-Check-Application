@@ -61,7 +61,7 @@ class Ui_LessonInfo(object):
         font.setPointSize(8)
         self.commandLinkButton_backhp.setFont(font)
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap(".\\UI\\../sources/homepage.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap(".\\UI\\../Downloaded_material/homepage.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.commandLinkButton_backhp.setIcon(icon)
         self.commandLinkButton_backhp.setObjectName("commandLinkButton_backhp")
         LessonInfo.setCentralWidget(self.centralwidget)

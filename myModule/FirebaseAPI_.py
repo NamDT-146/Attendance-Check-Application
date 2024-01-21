@@ -7,7 +7,7 @@ import datetime
 # from datetime.datetime import now
 
 
-cred = credentials.Certificate("sources\\firebase_SDK_install.json")
+cred = credentials.Certificate("Downloaded_material\\firebase_SDK_install.json")
 firebase_admin.initialize_app(cred, {
    'databaseURL': 'https://attendencechecking-df1dd-default-rtdb.firebaseio.com/',
    'storageBucket': 'attendencechecking-df1dd.appspot.com'

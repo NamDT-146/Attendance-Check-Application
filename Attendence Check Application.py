@@ -173,7 +173,7 @@ class MyApp(QMainWindow):
          pixmap = QPixmap.fromImage(q_image)
          self.ui.imageDisplay.setPixmap(pixmap)
          self.ui.labelNamdisplay.setText(name_)
-         self.ui.labelNamdisplay.setText(dob_)
+         self.ui.labelDobDisplay.setText(dob_)
          if id in self.checked_list:
             self.facerec_timer.start(self.milisecond_per_update_facerec)
             self.display_notice("Checked Before!")
